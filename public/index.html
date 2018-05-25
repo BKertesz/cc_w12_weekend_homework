@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokédex</title>
+    <script src='js/bundle.js'>
+    </script>
+  </head>
+  <body>
+    <h1>Pokédex</h1>
+    <div id='search-by-number'>
+      <form id='number-input-form'>
+      <label for='number_input'>Choose by number: </label>
+      <input id='number_input' type='number'/>
+      <button type='submit'>Search</button>
+    </form>
+    </div>
+    <div id='search-by-name'>
+      <label for="select-name">Select by name: </label>
+      <select id="select-name" name="select-name">
+        <option selected disabled></option>
+      </select>
+    </div>
+    <h2>Display</h2>
+    <div id='pokemon-display-list'></div>
+  </body>
+</html>
